@@ -1,33 +1,71 @@
 public class Main {
     public static void main(String[] args) {
-        Weather Weather = new Weather();
-        System.out.println("День недели:" + Weather.nameOfTheDay1);
-        System.out.println("Описание погоды:" + Weather.descriptionOfTheDay1);
-        System.out.println("Погода:" + Weather.weatherOfTheDay1);
+        //333 16->10
+        //333 = 3*16^2+3*16^1+3*16^0 = (3*256)+(3*16)+(3*1) = 768+48+3 = 819
 
-        System.out.println("День недели:" + Weather.getNameOfTheDay2);
-        System.out.println("Описание погоды:" + Weather.getDescriptionOfTheDay2);
-        System.out.println("Погода:" + Weather.getWeatherOfTheDay2);
 
-        System.out.println("День недели:" + Weather.nameOfTheDay3);
-        System.out.println("Описание погоды:" + Weather.getDescriptionOfTheDay3);
-        System.out.println("Погода:" + Weather.getWeatherOfTheDay3);
+        //200345 = 2000*10^2+3*10^2+4*10^1+5*10^0 = (2000*100)+(3*100)+(4*10)+(5*1) = 200000+300+40+5 = 200345
 
-        System.out.println("День недели:" + Weather.nameOfTheDay4);
-        System.out.println("Описание погоды:" + Weather.getDescriptionOfTheDay4);
-        System.out.println("Погода:" + Weather.getWeatherOfTheDay4);
 
-        System.out.println("День недели:" + Weather.nameOfTheDay5);
-        System.out.println("Описание погоды:" + Weather.getDescriptionOfTheDay5);
-        System.out.println("Погода:" + Weather.getWeatherOfTheDay5);
+        //10 -> 16
+        //637
+        //637/16 = 39 (деление без остатка)
+        //637%16 = 13 (остаток)
+        //39/16 = 2 (деление без остатка)
+        //39%16 = 7  (остаток)
+        //2/16 = 0 (деление без остатка)
+        //2%16 = 2  (остаток)
+        //2713
 
-        System.out.println("День недели:" + Weather.nameOfTheDay6);
-        System.out.println("Описание погоды:" + Weather.getDescriptionOfTheDay6);
-        System.out.println("Погода:" + Weather.getWeatherOfTheDay6);
+        //16 ->10
+        //
 
-        System.out.println("День недели:" + Weather.nameOfTheDay7);
-        System.out.println("Описание погоды:" + Weather.getDescriptionOfTheDay7);
-        System.out.println("Погода:" + Weather.getWeatherOfTheDay7);
+        //637 = 6*16^2+3*16^1+7*10^0 = (6*256)+(3*16)+(7*1) = 1536+48+7 = 1591
+
+        //10 -> 2
+        //637
+        //637/2 = 318 (деление без остатка)
+        //637%2 = 1 (остаток)
+        //318/2 = 159 (деление без остатка)
+        //318%2 = 0 (остаток)
+        //159/2 = 79 (деление без остатка)
+        //159%2 = 1 (остаток)
+        //79/2 = 39 (деление без остатка)
+        //79%2 = 1 (остаток)
+        //39/2 = 19 (деление без остатка)
+        //39%2 = 1 (остаток)
+        //19/2 = 9 (деление без остатка)
+        //19%2 = 1 (остаток)
+        //9/2 = 4 (деление без остатка)
+        //9%2 = 1 (остаток)
+        //4/2 = 2 (деление без остатка)
+        //4%2 = 0 (остаток)
+        //2/2 = 1 (деление без остатка)
+        //2%2 = 0 (остаток)
+        //1/2 = 0 (деление без остатка)
+        //1%2 = 1
+        //1001111101
+
+
+        //11100111 -> 10
+        //11100111 = (1*2^7)+(1*2^6)+(1*2^5)+(0*2^4)+(0*2^3)+(1*2^2)+(1*2^1)+(1*2^0) = (1*128)+(1*64)+(1*32)+(0*16)+(0*8)+(1*4)+(1*2)+(1*1) = 128+64+32+0+0+4+2+1 =231
+
+
+        //637 10 -> 3
+        //637/3 = 212 (деление без остатка)
+        //637%3 = 1 (остаток)
+        //212/3 = 70 (деление без остатка)
+        //212%3 = 2 (остаток)
+        //70/3 = 23 (деление без остатка)
+        //70%3 = 1 (остаток)
+        //23/3 = 7 (деление без остатка)
+        //23%3 = 2 (остаток)
+        //7/3 = 2 (деление без остатка)
+        //7%3 = 1 (остаток)
+        //2/3 = 0 (деление без остатка)
+        //2%3 = 2 (остаток)
+        //212121
+        
 
 
 
